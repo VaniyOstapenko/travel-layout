@@ -1,0 +1,142 @@
+header nav, header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+body {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 30px 0;
+}
+header .logo {
+  background-image: url(./asset/logo\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 41px;
+  height: 41px;
+}
+header nav {
+  width: 600px;
+}
+header nav p:first-child {
+  font: 500 16px "Inter";
+  color: #202336;
+}
+header nav p {
+  color: #B8BECD;
+  font: 400 16px "Inter";
+}
+header nav .login-btn {
+  border: 1px solid #FB8F1D;
+  border-radius: 8px;
+  width: 132px;
+  text-align: center;
+  padding: 15px 0;
+  font: 500 15px "Inter";
+  color: #FB8F1D;
+}
+header nav .register-btn {
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 132px;
+  text-align: center;
+  padding: 15px 0;
+  font: 500 15px "Inter";
+  color: #FFFFFF;
+}
+
+main {
+  margin-top: 110px;
+}
+main .preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .preview h1 {
+  font: 700 64px "Playfair Display";
+  color: #202336;
+  width: 356px;
+}
+main .preview h3 {
+  font: 600 22px "Inter";
+  color: #202336;
+  margin-top: 74px;
+}
+main .preview .input-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 220px 30px 220px;
+  grid-template-columns: 220px 220px;
+  grid-column-gap: 30px;
+  grid-row-gap: 35px;
+  margin-top: 71px;
+}
+main .preview .input-form input {
+  width: 220px;
+  height: 52px;
+  border: 0.8px solid #AFB0B9;
+  border-radius: 6px;
+}
+main .preview .input-form input::-webkit-input-placeholder {
+  font: 400 15px "Inter";
+  color: #4A4C53;
+  padding-left: 30px;
+}
+main .preview .input-form input::-moz-placeholder {
+  font: 400 15px "Inter";
+  color: #4A4C53;
+  padding-left: 30px;
+}
+main .preview .input-form input:-ms-input-placeholder {
+  font: 400 15px "Inter";
+  color: #4A4C53;
+  padding-left: 30px;
+}
+main .preview .input-form input::-ms-input-placeholder {
+  font: 400 15px "Inter";
+  color: #4A4C53;
+  padding-left: 30px;
+}
+main .preview .input-form input::placeholder {
+  font: 400 15px "Inter";
+  color: #4A4C53;
+  padding-left: 30px;
+}
+main .preview .preview-btn {
+  background: #FB8F1D;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font: 700 17px "Inter";
+  width: 180px;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 51px;
+}
+main .preview-img {
+  background-image: url(./asset/thousand12.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 506px;
+  height: 483px;
+}

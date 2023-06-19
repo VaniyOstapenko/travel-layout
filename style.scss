@@ -1,0 +1,131 @@
+$grey-color: #B8BECD;
+$orange-color: #FB8F1D;
+$black-color: #202336;
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    @extend %flex;
+    padding: 30px 0;
+
+    .logo {
+        background-image: url(./asset/logo\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 41px;
+        height: 41px;
+    }
+
+    nav {
+        @extend %flex;
+        width: 600px;
+
+        p:first-child {
+            font: 500 16px 'Inter';
+            color: #202336;
+        }
+
+        p {
+            color: $grey-color;
+            font: 400 16px 'Inter';
+        }
+
+        .login-btn {
+            border: 1px solid $orange-color;
+            border-radius: 8px;
+            width: 132px;
+            text-align: center;
+            padding: 15px 0;
+            font: 500 15px 'Inter';
+            color: $orange-color;
+        }
+
+        .register-btn {
+            background: $orange-color;
+            border-radius: 8px;
+            width: 132px;
+            text-align: center;
+            padding: 15px 0;
+            font: 500 15px 'Inter';
+            color: #FFFFFF;
+        }
+    }
+}
+
+main {
+
+    margin-top: 110px;
+
+    .preview {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            font: 700 64px 'Playfair Display';
+            color: $black-color;
+            width: 356px;
+        }
+
+        h3 {
+            font: 600 22px 'Inter';
+            color: $black-color;
+            margin-top: 74px;
+        }
+
+        .input-form {
+            display: grid;
+            grid-template-columns: 220px 220px;
+            grid-column-gap: 30px;
+            grid-row-gap: 35px;
+            margin-top: 71px;
+
+            input {
+                width: 220px;
+                height: 52px;
+                border: 0.8px solid #AFB0B9;
+                border-radius: 6px;
+            }
+
+            input::placeholder {
+                font: 400 15px 'Inter';
+                color: #4A4C53;
+                padding-left: 30px;
+            }
+        }
+
+        .preview-btn {
+            background: $orange-color;
+            border-radius: 8px;
+            color: #FFFFFF;
+            font: 700 17px 'Inter';
+            width: 180px;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 51px;
+        }
+    }
+
+    .preview-img {
+        background-image: url(./asset/thousand12.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 506px;
+        height: 483px;
+    }
+}
