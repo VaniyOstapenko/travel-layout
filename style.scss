@@ -128,4 +128,120 @@ main {
         width: 506px;
         height: 483px;
     }
+
+    .travel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .baloon {
+            background-image: url(./asset/Picture.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 700px;
+            height: 600px;
+            margin-top: 113px;
+        }
+    }
+
+    .content {
+        h2 {
+            font: 700 36px 'Playfair Display';
+            color: $black-color;
+            width: 481px;
+        }
+
+        p {
+            font: 300 17px 'Inter';
+            color: $grey-color;
+            width: 450px;
+            margin-top: 20px;
+        }
+
+        .content-btn {
+            background: $orange-color;
+            border-radius: 8px;
+            font: 600 16px 'Inter';
+            color: #FFFFFF;
+            width: 164px;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 33px;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F9F9FB;
+    width: 1220px;
+    height: 408px;
+    margin-top: 192px;
+
+    .column {
+
+        width: 320px;
+
+        .logo {
+            background-image: url(./asset/logo\ \(1\).svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 41px;
+            height: 41px;
+        }
+
+        h3 {
+            font: 700 19px 'Inter';
+            color: $black-color;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+            margin-top: 10px;
+        }
+    }
+
+    .column1 {
+        h3 {
+            font: 700 19px 'Inter';
+            color: $black-color;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+            margin-top: 10px;
+        }
+    }
+
+    .column2 {
+        h3 {
+            font: 700 19px 'Inter';
+            color: $black-color;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+            margin-top: 10px;
+        }
+    }
+
+    .column3 {
+        h3 {
+            font: 700 19px 'Inter';
+            color: $black-color;
+        }
+
+        p {
+            font: 300 18px 'Inter';
+            color: $grey-color;
+            margin-top: 10px;
+        }
+    }
+
+
 }
